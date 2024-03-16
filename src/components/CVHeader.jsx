@@ -9,7 +9,7 @@ function CVHeader(){
 return (
     <div className="cv-header">
         <h1 className="name">Dominic Wild</h1>
-        <h2 className="statement">Lancaster University Graduate - Seeking to grow as a software developer</h2>
+        <h2 className="statement">Software Developer - Seeking innovation, challenge, work variety and growth</h2>
         <div className="contact-info">
             <div className="contact">
                 <div className='contact-icon'>
