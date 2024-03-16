@@ -1,0 +1,50 @@
+.cv-body {
+    margin: 0 1em;
+    margin-top: 0.5em;
+    color: #153d70;
+
+    .profile-title {
+        margin-top: 0 !important;
+    }
+
+    .section {
+
+        $sidePadding: 0.75rem;
+
+        .section-title {
+            font-size: 2.5em;
+            border-bottom: 0.05em solid #153d70;
+            padding: 0 $sidePadding 0 $sidePadding;
+            margin-bottom: 0.25em;
+            margin-top: 0.25em;
+        }
+
+        .section-body {
+            padding: 0 $sidePadding 0 $sidePadding;
+            font-weight: 400;
+
+            &.education-body {
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1 0 50%;
+
+                .qualification {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    margin-bottom: 0.5em;
+
+                    .qualification-date {
+                        width: 15%;
+                        font-weight: bold;
+                    }
+
+                    .qualification-description {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+
+    }
+}

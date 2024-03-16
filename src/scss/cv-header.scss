@@ -1,0 +1,46 @@
+.cv-header {
+    background: linear-gradient(to right, #0270b2, #02549e, #0270b2);
+    color: white;
+    padding: 1em;
+    padding-bottom: 0.3em;
+
+    .name {
+        margin-top: 0;
+        margin-bottom: 0.1em;
+        font-size: 4em;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .statement {
+        margin: 0.5em 0;
+        font-size: 1em;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .contact-icon {
+                svg {
+                    height: 2.3em;
+                    width: 2.3em;
+                }
+                margin-right: 0.3em;
+            }
+
+            .contact-detail {
+                font-size: 1em;
+                font-weight: 500;
+            }
+        }
+
+    }
+}
